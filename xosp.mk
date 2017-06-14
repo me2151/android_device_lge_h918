@@ -1,8 +1,8 @@
 $(call inherit-product, device/lge/h918/full_h918.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/xosp/configs/common_full_phone.mk)
-$(call inherit-product, vendor/xosp/configs/xosp.mk)
+$(call inherit-product, vendor/xosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/xosp/config/xosp.mk)
 
 # Overlays (inherit after vendor/cm to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
