@@ -11,7 +11,7 @@ PRODUCT_NAME := xosp_h918
 
 USE_CHROMIUM := true
 
-ROOT_METHOD := supersu
+ROOT_METHOD := magisk
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="v20" \
